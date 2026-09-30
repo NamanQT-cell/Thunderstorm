@@ -1,0 +1,17 @@
+numpy
+pandas
+xarray
+netCDF4
+h5py
+scikit-learn
+torch
+matplotlib
+streamlit
+fastapi
+uvicorn[standard]
+earthaccess
+
+# Optional, only needed once real data is plugged in:
+# wradlib        # radar reprojection (IMD mode)
+# cdsapi         # ERA5 download (OPEN mode)
+# satpy          # satellite reprojection helpers
